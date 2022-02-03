@@ -1,0 +1,21 @@
+{
+  "name": "@vux0303/ecs-with-replication",
+  "version": "1.0.8",
+  "description": "typescript ecs for netcode",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vux0303",
+  "license": "ISC",
+  "keywords": [
+    "ecs",
+    "typescript",
+    "replication"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": ["build"]
+}

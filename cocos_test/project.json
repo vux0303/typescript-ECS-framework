@@ -1,0 +1,8 @@
+{
+  "engine": "cocos-creator-js",
+  "packages": "packages",
+  "name": "ECS",
+  "id": "490839a9-200a-4ee9-8e23-b96e0f312b91",
+  "version": "2.4.0",
+  "isNew": false
+}
