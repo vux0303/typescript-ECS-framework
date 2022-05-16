@@ -15,11 +15,15 @@
     "replication"
   ],
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+	"registry": "https://npm.pkg.github.com/"
   },
   "files": ["build"],
+  "bin": {
+    "@vux0303/ecs-with-replication": "./build/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/vux0303/typescript-ECS-framework.git"
-  },
+  }
 }
