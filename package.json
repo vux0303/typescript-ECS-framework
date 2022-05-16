@@ -17,5 +17,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "files": ["build"]
+  "files": ["build"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vux0303/typescript-ECS-framework.git"
+  },
 }
