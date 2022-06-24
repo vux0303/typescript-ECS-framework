@@ -9,5 +9,6 @@ export class Component {
         ecsActive: false,
         dirtyProperties: null,
     };
-    public activeOnCreation: boolean;
+    public activeOnCreation: boolean = false;
+    public activeByAll: boolean = false;
 }
