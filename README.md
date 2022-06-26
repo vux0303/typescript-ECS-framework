@@ -1,7 +1,7 @@
 # Goal
 This project aim to build a core functionality for H5 games using ECS, so you can build reusable and easy to share systems on top of it.
 If you building multiplayrt game and using your engine solely for client rendering, this framework may fit into your gameplay code that share between client and server. 
-> This is a research project. It is incomplete and poorly tested. Need more work to use for production.
+> This is a personal project for learing purpose. It is incomplete, poorly tested and require more work to use for production.
 
 # Guideline
 The framework is published as an npm package, you can install from command line:
@@ -9,7 +9,7 @@ The framework is published as an npm package, you can install from command line:
 `npm install vux0303/ecs-with-replication`
 
 The package contains two parts:
-* [The ECS framework](https://github.com/vux0303/typescript-ECS-framework/wiki): a very basic ECS written in Typescipt with minial APIs
+* [The ECS framework](https://github.com/vux0303/typescript-ECS-framework/wiki/Guideline): a very basic ECS written in Typescipt with minial APIs
 * [Replication System](https://github.com/vux0303/typescript-ECS-framework/wiki): a system resolve what to be sent between client and server, built on top of the framework
 
 # Implement references
