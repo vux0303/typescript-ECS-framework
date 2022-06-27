@@ -9,7 +9,7 @@ The framework is published as an npm package, you can install from command line:
 `npm install vux0303/ecs-with-replication`
 
 The package contains two parts:
-* [The ECS framework](https://github.com/vux0303/typescript-ECS-framework/wiki/Guideline): a very basic ECS written in Typescipt with minial APIs
+* [The ECS framework](https://github.com/vux0303/typescript-ECS-framework/wiki): a very basic ECS written in Typescipt with minial APIs
 * [Replication System](https://github.com/vux0303/typescript-ECS-framework/wiki): a system resolve what to be sent between client and server, built on top of the framework
 
 # Implement references
