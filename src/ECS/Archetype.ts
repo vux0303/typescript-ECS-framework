@@ -15,12 +15,12 @@ var signalSetTrap: ProxyHandler<Component> = {
         //     return;
         // }
         if (/*prop != 'ecsActive' && */prop != 'internal') {
-            if (obj.internal.dirtyProperties) {
+            if (obj.activeByAll) {
                 if (obj[prop] != value) {
                     obj.internal.dirtyProperties.add(prop as string);
                     //result = Reflect.set(obj, prop, value); //put here to count uninitiated properties
                     obj[prop] = value;
-                    if (obj.internal.dirtyProperties.size == (Object.keys(obj).length - 2)) { //dont count ecsActive and dirtyProperties
+                    if (obj.internal.dirtyProperties.size == (Object.keys(obj).length - 3)) { //dont count activeByAll, activeOnCreate, internal
                         obj.internal.ecsActive = true;
                         obj.internal.dirtyProperties.clear();
                     }
