@@ -1,6 +1,6 @@
 {
   "name": "@vux0303/ecs-with-replication",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "description": "typescript ecs for netcode",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -16,7 +16,8 @@
   ],
   "publishConfig": {
     "access": "public",
-	"registry": "https://npm.pkg.github.com/"
+	"registry": "https://npm.pkg.github.com/",
+	"registry": "https://registry.npmjs.org"
   },
   "files": ["build"],
   "bin": {

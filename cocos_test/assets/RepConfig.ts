@@ -34,5 +34,4 @@ export class ServerShipSystem extends MessageProcessSystem {
     }
 }
 
-repConfig.clientShipSystem = ShipMessageSystem;
-repConfig.serverShipSystem = ServerShipSystem;
+repConfig.messageShipSystem  = ShipMessageSystem;

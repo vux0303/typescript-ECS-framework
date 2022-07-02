@@ -23,14 +23,12 @@ type configType = {
     repEnv: RepEnv;
     debug: boolean;
     useNumericAliasKey: boolean;
-    clientShipSystem: MessageProcessSystemCtor;
-    serverShipSystem: MessageProcessSystemCtor;
+    messageShipSystem: MessageProcessSystemCtor;
 }
 
 export var repConfig: configType = {
     repEnv: RepEnv.client,
     debug: true,
     useNumericAliasKey: false,
-    clientShipSystem: undefined,
-    serverShipSystem: undefined,
+    messageShipSystem: undefined,
 }

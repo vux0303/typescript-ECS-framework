@@ -43,22 +43,28 @@ export default class ReplicationSystem extends ecs.System {
             }
         })
 
-        //this.admin.queryAll([ReplicationConfig], ([config]) => {
-            if (repConfig.repEnv == RepEnv.client) {
-                if (repConfig.clientShipSystem) {
-                    this.admin.registerSystem(new repConfig.clientShipSystem());
-                } else {
-                    console.warn("[REP] clientShipSystem is undefined");
-                }
-            } else {
-                if (repConfig.serverShipSystem) {
-                    this.admin.registerSystem(new repConfig.clientShipSystem());
-                } else {
-                    console.warn("[REP] serverShipSystem is undefined");
-                }
-            }
+        // //this.admin.queryAll([ReplicationConfig], ([config]) => {
+        //     if (repConfig.repEnv == RepEnv.client) {
+        //         if (repConfig.messageShipSystem) {
+        //             this.admin.registerSystem(new repConfig.clientShipSystem());
+        //         } else {
+        //             console.warn("[REP] clientShipSystem is undefined");
+        //         }
+        //     } else {
+        //         if (repConfig.serverShipSystem) {
+        //             this.admin.registerSystem(new repConfig.clientShipSystem());
+        //         } else {
+        //             console.warn("[REP] serverShipSystem is undefined");
+        //         }
+        //     }
 
-        //})
+        // //})
+
+        if (repConfig.messageShipSystem) {
+            this.admin.registerSystem(new repConfig.messageShipSystem());
+        } else {
+            console.warn("[REP] messageShipSystem is undefined, you must config this processor for ReplicationSystem to work");
+        }
 
         this.admin.registerSystem(new MessageApplySystem());
     }

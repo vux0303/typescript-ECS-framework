@@ -9,7 +9,7 @@
   "author": "vu",
   "license": "ISC",
   "dependencies": {
-    "@vux0303/ecs-with-replication": "^1.0.8",
+    "@vux0303/ecs-with-replication": "1.1.0",
     "reflect-metadata": "^0.1.13"
   }
 }
