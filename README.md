@@ -10,9 +10,9 @@ The framework is published as an npm package, you can install from command line:
 
 The package contains two parts:
 * [The ECS framework](https://github.com/vux0303/typescript-ECS-framework/wiki): a very basic ECS written in Typescipt with minial APIs
-* [Replication System](https://github.com/vux0303/typescript-ECS-framework/wiki): a system resolve what to be sent between client and server, built on top of the framework
+* [Replication System](https://github.com/vux0303/typescript-ECS-framework/wiki/Replication-System): a system resolve what to be sent between client and server, built on top of the framework
 
-# Implement references
+# Implementation references
 * [ Implementing a type-safe ECS with typescript](https://dev.t-matix.com/blog/platform/eimplementing-a-type-saf-ecs-with-typescript/)
 * [Overwatch gameplay architecture and netcode](http://overwatch%20gameplay%20architecture%20and%20netcode/)
 * [Why vanilla ECS is not enough](https://ajmmertens.medium.com/why-vanilla-ecs-is-not-enough-d7ed4e3bebe5)
