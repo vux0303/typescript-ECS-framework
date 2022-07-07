@@ -1,6 +1,6 @@
 # Goal
 This project aim to build a core functionality for H5 games using ECS, so you can build reusable and easy to share systems on top of it.
-If you building multiplayrt game and using your engine solely for client rendering, this framework may fit into your gameplay code that share between client and server. 
+If you building multiplayer game and using your engine solely for client rendering, this framework may fit into your gameplay code that share between client and server. 
 > This is a personal project for learing purpose. It is incomplete, poorly tested and require more work to use for production.
 
 # Guideline
